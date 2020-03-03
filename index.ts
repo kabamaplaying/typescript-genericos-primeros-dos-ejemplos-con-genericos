@@ -57,7 +57,7 @@ class DiskStream implements IStream {
 }
 
 const webStream = new Data<WebStream>();
-const diskStream = new Data<WebStream>();
+const diskStream = new Data<DiskStream>();
 
 webStream.ReadStream(new WebStream());
 diskStream.ReadStream(new DiskStream());
